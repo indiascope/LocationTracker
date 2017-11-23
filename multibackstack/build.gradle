@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+  api "com.android.support:appcompat-v7:${rootProject.supportV4Version}"
+
+}
+
+android {
+  compileSdkVersion rootProject.compileSdkVersion
+  buildToolsVersion rootProject.buildToolsVersion
+
+  defaultConfig {
+    minSdkVersion rootProject.minSdkVersion
+    targetSdkVersion rootProject.targetSdkVersion
+
+  }
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Location Tracker</string>
+    <string name="session">Session</string>
+    <string name="travel">Travel</string>
+    <string name="location">Location</string>
+
+    <string name="not_title_set">No title set</string>
+    <string name="current_location">Current Location</string>
+    <string name="travel_distance">Travel Distance(In Meters)</string>
+
+    <array name="tab_name">
+        <item>Location</item>
+        <item>Travel</item>
+        <item>Session</item>
+    </array>
+
+
+</resources>

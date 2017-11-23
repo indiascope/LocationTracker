@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/padding_10"
+    android:layout_margin="@dimen/margin_10"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvDistanceTravel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/travel_distance"
+        android:textSize="@dimen/text_size_20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTravelDistanceInMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDistanceTravel"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_20"
+        tools:text="23.06,50.09csdfdgdfhhfgjgjgijdsfdfjdijdifgdgfigfgffggfgfgfgffggfgfgfgfgfgggf" />
+
+
+</RelativeLayout>
